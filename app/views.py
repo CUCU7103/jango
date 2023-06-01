@@ -1,5 +1,6 @@
 from django.shortcuts import render
 
+
 # Create your views here.
 def indexFunc(request):
     return render(request,'index.html')
@@ -7,3 +8,4 @@ def indexFunc(request):
 
 def homeFunc(request):
     return render(request,'home.html')
+

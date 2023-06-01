@@ -22,4 +22,5 @@ urlpatterns = [
     path("admin/", admin.site.urls),
     path("index/", views.indexFunc),
     path("", views.homeFunc ),
+    
 ]
